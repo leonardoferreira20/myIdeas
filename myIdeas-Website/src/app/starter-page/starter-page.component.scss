@@ -1,0 +1,25 @@
+.header-div {
+  width: 100%;
+  height: 10vh;
+  background-color: #CCC;
+
+  .nav-bar {
+    .div-nav-bar {
+      display: flex;
+    }
+
+    ul {
+      display: flex;
+      align-items: stretch; /* Default */
+      justify-content: space-between;
+      width: 100%;
+      background: #cacaca;
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+      }
+    }
+  }
+}
